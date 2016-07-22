@@ -1,0 +1,142 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, InactivityWatch, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#cccccc"
+  title_receive_fg_color = "#999999"
+  focus = mouse
+  title_transmit_fg_color = "#000000"
+[keybindings]
+[profiles]
+  [[default]]
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#1e90ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#4682b4:#ff00ff:#00ffff:#ffffff"
+    foreground_color = "#e53c00"
+    scrollback_lines = 20000
+    cursor_color = "#336699"
+    background_image = None
+  [[term]]
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child0]]]
+      position = 0:33
+      type = Window
+      order = 0
+      parent = ""
+      size = 1680, 993
+    [[[child1]]]
+      position = 500
+      type = VPaned
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 845
+      type = HPaned
+      order = 0
+      parent = child1
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal5]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal4]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child2
+  [[term]]
+    [[[child0]]]
+      position = 0:33
+      type = Window
+      order = 0
+      parent = ""
+      size = 1680, 979
+    [[[child1]]]
+      labels = None, None, None, None
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[child10]]]
+      position = 634
+      type = VPaned
+      order = 2
+      parent = child1
+    [[[child3]]]
+      position = 479
+      type = VPaned
+      order = 1
+      parent = child1
+    [[[child4]]]
+      position = 845
+      type = HPaned
+      order = 0
+      parent = child3
+    [[[child7]]]
+      position = 840
+      type = HPaned
+      order = 1
+      parent = child3
+    [[[terminal16]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child15
+    [[[child12]]]
+      position = 840
+      type = HPaned
+      order = 1
+      parent = child10
+    [[[terminal11]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child10
+    [[[terminal13]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child12
+    [[[terminal2]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child1
+    [[[terminal5]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child4
+    [[[terminal14]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child12
+    [[[terminal17]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child15
+    [[[terminal6]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child4
+    [[[terminal9]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child7
+    [[[terminal8]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child7
+    [[[child15]]]
+      position = 848
+      type = HPaned
+      order = 3
+      parent = child1
+[plugins]
