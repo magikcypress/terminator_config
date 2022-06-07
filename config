@@ -1,19 +1,18 @@
 [global_config]
-  enabled_plugins = CustomCommandsMenu, InactivityWatch, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
-  title_transmit_bg_color = "#cccccc"
-  title_receive_fg_color = "#999999"
   focus = mouse
   title_transmit_fg_color = "#000000"
+  title_transmit_bg_color = "#cccccc"
+  title_receive_fg_color = "#999999"
+  enabled_plugins = CustomCommandsMenu, InactivityWatch, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
 [keybindings]
 [profiles]
   [[default]]
-    palette = "#000000:#cd0000:#00cd00:#cdcd00:#1e90ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#4682b4:#ff00ff:#00ffff:#ffffff"
-    foreground_color = "#e53c00"
-    scrollback_lines = 20000
-    cursor_color = "#336699"
-    background_image = None
+    background_color = "#403e41"
+    cursor_color = "#fcfcfa"
+    cursor_color_fg = False
+    foreground_color = "#fcfcfa"
+    palette = "#403e41:#ff6188:#a9dc76:#ffd866:#fc9867:#ab9df2:#78dce8:#fcfcfa:#727072:#ff6188:#a9dc76:#ffd866:#fc9867:#ab9df2:#78dce8:#fcfcfa"
   [[term]]
-    background_image = None
 [layouts]
   [[default]]
     [[[child0]]]
